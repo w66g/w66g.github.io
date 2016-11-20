@@ -1,2 +1,7 @@
-# w66g.github.io
-天猫淘宝 内部优惠券搜集平台
+##个人博客
+
+
+博客地址：[http://www.maxwellqi.com/](http://www.maxwellqi.com/)
+
+博客风格复用：[http://beiyuu.com/](http://beiyuu.com/)
+
