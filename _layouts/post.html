@@ -99,21 +99,21 @@ layout: default
     
 
     <div class="sidenav">
-        <a href="/"><h2>Blog</h2></a>
+        <a href="/"><h2>查询结果</h2></a>
         <ul class="artical-list">
         {% for post in site.categories.blog limit:5 %}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
 
-        <a href="/opinion"><h2>Opinion</h2></a>
+        <a href="/opinion"><h2>蚁聚周榜</h2></a>
         <ul class="artical-list">
         {% for post in site.categories.opinion limit:5 %}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
 
-        <a href="/project"><h2>Project</h2></a>
+        <a href="/project"><h2>生活百科</h2></a>
         <ul class="artical-list">
         {% for post in site.categories.project limit:5 %}
             <li><a href="{{ post.url }}">{{ post.title }}</a></li>
