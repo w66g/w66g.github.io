@@ -9,4 +9,4 @@ category: C
 
 
 
-[w66g]:    https://w66g.github.io  "MaxwellQi"
+[w66g]:    https://w66g.github.io  "w66g"
