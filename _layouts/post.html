@@ -73,19 +73,18 @@ layout: default
             
 
             <!-- [ 评论加载方式2：进入页面时即开始加载评论 -->
-            <!--
             <script type="text/javascript">
                 /* * * CONFIGURATION VARIABLES * * */
-                var disqus_shortname = 'samirchenblog';
+                var disqus_shortname = 'yi-ju-you-hui-fa-bu-ping-tai';
                 /* * * DON'T EDIT BELOW THIS LINE * * */
-                (function() {
-                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+               (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = '//yi-ju-you-hui-fa-bu-ping-tai.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
                 })();
             </script>
-            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-            -->
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
             <!-- 评论加载方式2：进入页面时即开始加载评论 ] -->
 
         </div>
